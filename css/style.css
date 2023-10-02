@@ -14,7 +14,15 @@
     width: 100%; 
 }
 
-/* buttons */
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* button */
 
 .button {
     font-size: 14px;
@@ -41,6 +49,18 @@
     border: 2px solid black;
 }
 
+.button.large {
+    width: 224px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* radio input */
+
+/* hr */
+
+hr { border: 1px solid; }
+
 /* HEADER */
 
 header {
@@ -60,6 +80,7 @@ header {
     width: 100%;
     height: 64px;
     padding: 0 24px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,.2);
 }
 
 /* .head > div {
@@ -96,8 +117,6 @@ header {
 /* jumbo start */
 
 header .container {
-    background-color: #B4D0E7;
-    /* margin-top: 64px; */
     padding: 64px 5% 0 5%;
     display: flex;
     flex-direction: column;
@@ -134,7 +153,7 @@ header .info-container > button {
 
 header .info-container > i {
     font-size: 48px;
-    padding: 20% 0;
+    padding: 50px 0;
 }
 
 header .img-container {
@@ -146,4 +165,85 @@ header .img-container > img {
 }
 
 /* jumbo end */
+
+/* MAIN */
+
+main {
+    padding-top: 64px;
+}
+
+main section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 64px 0;
+}
+
+main section .container {
+    width: 100%;
+    max-width: 950px;
+    font-size: 14px;
+}
+
+/* plans section */
+
+main section .container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+main section .container > h2 {
+    padding-bottom: 48px;
+}
+
+main section .container label {
+    margin-right: 24px;
+}
+
+main section .plan {
+    margin-top: 40px;
+    width: 100%;
+}
+
+main section .plan :last-child {
+    border-top: 0px;
+}
+
+main section .plan.middle {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main section .plan > div {
+    border: 2px solid #E1E1E3;
+    padding: 10px;
+}
+
+main section .plan > .title {
+    text-align: center;
+}
+
+main section .plan > .content {
+    padding: 30px 25px;
+    /* height: 800px; */
+}
+
+main section .plan > div > i {
+    margin-right: 6px;
+}
+
+main section .plan .content .price {
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+main section .plan .content > .period {
+    color: #8a8a8a;
+}
+
+main section .plan .content > button {
+    width: 100%;
+}
+
 

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
 </head>
 <body>
     <header>
@@ -39,12 +40,12 @@
                         <p>
                             Finalmente tutti i tuoi strumenti, contenuti
                             e collaboratori sono accessibili dallo stesso
-                            posto. Dropbox Buisness è più di uno spazio di 
+                            posto. Dropbox Business è più di uno spazio di 
                             archiviazione sicuro: è un modo intelligente e 
                             intrigato per ottimizzare il flusso di lavoro 
                             esistente.
                         </p>
-                        <button class="button blue">Inizia la tua prova gratuita</button>
+                        <button class="button blue large">Inizia la tua prova gratuita</button>
                         <div>Annulla in qualsiasi momento</div>
                         <i class="fas fa-arrow-down"></i>
                     </div>
@@ -58,7 +59,140 @@
     </header>
 
     <main>
+        <section>
+            <div class="container">
+                <h2>Trova il piano business che fa per te</h2>
+                <input type="radio" name="Fatturazione" value="month" id="monthly">
+                <label for="monthly">Fatturazione mensile</label>
+                <input type="radio" name="Fatturazione" value="year" id="annual">
+                <label for="annual">Fatturazione annuale</label>
 
+                <div>
+                    <div class="plan">
+                        <div class="title">
+                            <i class="fas fa-user"></i>
+                            Singolo
+                        </div>
+
+                        <div class="content h-850">
+                            <h3>Professional</h3>
+                            <div class="price">&euro; 12.00</div>
+                            <div class="period">/mese</div>
+
+                            <ul class="mt-48 ml-8">
+                                <li class="li-icon li-user mt-16">1 utente</li>
+                                <li class="li-icon li-folder mt-16">5 TB di spazio di archiviazione sicuro</li>
+                                <li class="li-icon li-share mt-16">Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
+
+                            <button class="button blue large mt-48">Prova gratis per 30 giorni</button>
+
+                            <div class="mt-32">oppure <a href="">acquista ora</a></div>
+
+                            <hr class="mt-30 w-48 b-color-grey">
+
+                            <div class="mt-40 fw-600">Punti Salienti del piano</div>
+
+                            <ul class="mt-20 ml-8">
+                                <li class="li-icon blue li-check mt-16">Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li class="li-icon blue li-check mt-16">Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="plan middle">
+                        <div class="title">
+                            <i class="fas fa-users"></i>
+                            Team
+                        </div>
+
+                        <div class="content h-850">
+                            <h3>Advanced</h3>
+                            <div class="price">&euro; 18.00</div>
+                            <div class="period">/utente/mese</div>
+
+                            <ul class="mt-48 ml-8">
+                                <li class="li-icon li-users mt-16">3 o più utenti</li>
+                                <li class="li-icon li-folder mt-16">Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                <li class="li-icon li-share mt-16">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                            </ul>
+
+                            <button class="button blue large mt-48">Prova gratis per 30 giorni</button>
+
+                            <div class="mt-32">oppure <a href="">acquista ora</a></div>
+
+                            <hr class="mt-30 w-48 b-color-grey">
+
+                            <div class="mt-40 fw-600">Punti Salienti del piano</div>
+
+                            <ul class="mt-20 ml-8">
+                                <li class="li-icon blue li-check mt-16">Nessun limite di spazio per i file</li>
+                                <li class="li-icon blue li-check mt-16">Cartelle offline su dispositivi mobili</li>
+                                <li class="li-icon blue li-check mt-16">Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                <li class="li-icon blue li-check mt-16">Possibilità di inserire nuovi membri del team</li>
+                                <li class="li-icon blue li-check mt-16">Gestione dei permessi in base ai ruoli</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="plan">
+                        <div class="title">
+                            <i class="fas fa-building"></i>
+                            Azienda
+                        </div>
+
+                        <div class="content h-850">
+                            <h3>Enterprise</h3>
+                            <div class="price">Contattaci</div>
+                            <div class="period">-</div>
+
+                            <ul class="mt-48 ml-8">
+                                <li class="li-icon li-users mt-16">10 o più utenti</li>
+                                <li class="li-icon li-folder mt-16">Soluzioni personalizzabili per la tua azienda</li>
+                                <li class="li-icon li-share mt-16">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                            </ul>
+
+                            <button class="button blue large mt-48">Contattaci</button>
+
+                            <div class="mt-32">oppure <a href="">acquista ora</a></div>
+
+                            <hr class="mt-30 w-48 b-color-grey">
+
+                            <div class="mt-40 fw-600">Punti Salienti del piano</div>
+
+                            <ul class="mt-20 ml-8">
+                                <li class="li-icon blue li-check mt-16">Cartelle offline su dispositivi mobili</li>
+                                <li class="li-icon blue li-check mt-16">Servizio assistenza 24/h</li>
+                                <li class="li-icon blue li-check mt-16">Possibilità di personalizzazione totale</li>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <div class="plan">
+                        <div class="title">
+                            <i class="fas fa-building"></i>
+                            Team
+                        </div>
+
+                        <div class="content flex">
+                            <div>
+                                <h3>Enterprise</h3>
+                                <div class="price">Contatta l'ufficio vendite per i prezzi</div>
+                                <div class="mt-48">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</div>
+                            </div>
+
+                            <div>
+                                <button class="button blue large ml-48">Contatta l'ufficio vendite</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
