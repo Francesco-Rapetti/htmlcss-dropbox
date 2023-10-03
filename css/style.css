@@ -7,6 +7,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* prevent from breaking */
+body { min-width: 1212px; }
+
 h2 { font-size: 32px; } 
 h3 { font-size: 20px; }
 
@@ -32,7 +35,7 @@ hr { border: 1px solid; }
     text-decoration: none;
     color: black;
     line-height: 0;
-    padding: 30px 12px;
+    padding: 31px 12px;
     font-size: 14px;
     border: 2px solid transparent;
 }
@@ -119,7 +122,24 @@ main section .plan .content > button {
     width: 100%;
 }
 
+/* team section */
 
+.logo {
+    width: 110px;
+    filter: invert(1);
+}
 
+.middle-container {
+    padding: 48px;
+}
+
+.middle-container img {
+    width: 50%;
+    max-width: 300px;
+}
+
+.middle-container p {
+    font-size: 13px;
+}
 
 
