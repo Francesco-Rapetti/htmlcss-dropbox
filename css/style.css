@@ -10,39 +10,6 @@
 h2 { font-size: 32px; } 
 h3 { font-size: 20px; }
 
-/* button */
-
-.button {
-    font-size: 14px;
-    padding: 6px 12px;
-    border: 0px;
-    cursor: pointer;
-}
-
-.button.blue {
-    background-color: #0061FF;
-    color: white;
-}
-
-.button.blue:hover {
-    background-color: #5898ff;
-}
-
-.button.white {
-    background-color: white;
-    color: black;
-}
-
-.button.border {
-    border: 2px solid black;
-}
-
-.button.large {
-    width: 224px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
 /* radio input */
 
 /* hr */
@@ -151,5 +118,9 @@ main section .plan .content > .period {
 main section .plan .content > button {
     width: 100%;
 }
+
+/* partner section */
+
+
 
 
