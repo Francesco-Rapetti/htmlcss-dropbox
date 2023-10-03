@@ -4,6 +4,7 @@
 .j-content-between { justify-content: space-between; }
 .j-content-center {justify-content: center; }
 .fd-column { flex-direction: column; }
+.fw-wrap { flex-wrap: wrap; }
 
 /* margin */
 .mt-8 { margin-top: 8px; }
