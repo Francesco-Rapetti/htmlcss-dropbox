@@ -5,22 +5,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    /* overflow-y: auto; */
 }
 
-.m-5 { margin: 0 5%; }
-.bg-cyan { 
-    background-color: #B4D0E7;
-    width: 100%; 
-}
-
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 20px;
-}
+h2 { font-size: 32px; } 
+h3 { font-size: 20px; }
 
 /* button */
 
@@ -63,53 +51,27 @@ hr { border: 1px solid; }
 
 /* HEADER */
 
-header {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
-
 /* menù start */
 
 .head {
     background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: fixed;
-    width: 100%;
     height: 64px;
     padding: 0 24px;
     box-shadow: 0px 0px 4px rgba(0,0,0,.2);
-}
-
-/* .head > div {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1500px;
-    width: 100%;
-    background-color: white;
-} */
-
-.head > div {
-    display: flex;
-    align-items: center;
 }
 
 .head a:not(#logo) {
     text-decoration: none;
     color: black;
     line-height: 0;
-    padding: 32px 12px;
+    padding: 30px 12px;
     font-size: 14px;
+    border: 2px solid transparent;
 }
 
 .head a:not(#logo):hover {
     border-bottom: 2px solid black;
-}
-
-#logo {
-    margin-right: 12px;
 }
 
 /* menù end */
@@ -118,28 +80,16 @@ header {
 
 header .container {
     padding: 64px 5% 0 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
     height: 730px;
 }
 
 header .container > div {
-    margin: 48px 0 0 0;
-    width: 100%;
     max-width: 1100px;
-    display: flex;
-    flex-direction: row;
 }
 
 header .container > div > h1 {
     font-weight: 900;
     font-size: 80px;
-}
-
-header .info-container {
-    width: 30%;
 }
 
 header .info-container > p {
@@ -156,10 +106,6 @@ header .info-container > i {
     padding: 50px 0;
 }
 
-header .img-container {
-    width: 70%;
-}
-
 header .img-container > img {
     max-width: 100%;
 }
@@ -168,51 +114,15 @@ header .img-container > img {
 
 /* MAIN */
 
-main {
-    padding-top: 64px;
-}
-
-main section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 64px 0;
-}
-
 main section .container {
-    width: 100%;
     max-width: 950px;
     font-size: 14px;
 }
 
 /* plans section */
 
-main section .container > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-}
-
-main section .container > h2 {
-    padding-bottom: 48px;
-}
-
-main section .container label {
-    margin-right: 24px;
-}
-
-main section .plan {
-    margin-top: 40px;
-    width: 100%;
-}
-
 main section .plan :last-child {
     border-top: 0px;
-}
-
-main section .plan.middle {
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 main section .plan > div {
@@ -226,11 +136,6 @@ main section .plan > .title {
 
 main section .plan > .content {
     padding: 30px 25px;
-    /* height: 800px; */
-}
-
-main section .plan > div > i {
-    margin-right: 6px;
 }
 
 main section .plan .content .price {
@@ -242,6 +147,7 @@ main section .plan .content > .period {
     color: #8a8a8a;
 }
 
+/* overwrite "large button" width */
 main section .plan .content > button {
     width: 100%;
 }
