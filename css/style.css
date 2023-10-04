@@ -91,6 +91,20 @@ main section .container {
 
 /* plans section */
 
+/* checkbox start */
+
+section #monthly:checked ~ div .period.year, 
+section #monthly:checked ~ div .price.year {
+    display: none;
+}
+
+section #annual:checked ~ div .period.month, 
+section #annual:checked ~ div .price.month {
+    display: none;
+}
+
+/* checkbox end */
+
 main section .plan :last-child {
     border-top: 0px;
 }
@@ -179,4 +193,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
 

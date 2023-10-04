@@ -62,7 +62,7 @@
         <section class="w-100p flex j-content-center mt-128 mb-128">
             <div class="container w-100p">
                 <h2 class="pb-48">Trova il piano business che fa per te</h2>
-                <input type="radio" name="Fatturazione" value="month" id="monthly">
+                <input type="radio" name="Fatturazione" value="month" id="monthly" checked="checked">
                 <label class="mr-24" for="monthly">Fatturazione mensile</label>
                 <input type="radio" name="Fatturazione" value="year" id="annual">
                 <label for="annual">Fatturazione annuale</label>
@@ -76,8 +76,10 @@
 
                         <div class="content h-850">
                             <h3>Professional</h3>
-                            <div class="price">&euro; 12.00</div>
-                            <div class="period">/mese</div>
+                            <div class="price month">&euro; 12.00</div>
+                            <div class="price year">&euro; 125.00</div>
+                            <div class="period month">/mese</div>
+                            <div class="period year">/anno</div>
 
                             <ul class="mt-48 ml-8">
                                 <li class="li-icon li-user mt-16">1 utente</li>
@@ -108,8 +110,10 @@
 
                         <div class="content h-850">
                             <h3>Advanced</h3>
-                            <div class="price">&euro; 18.00</div>
-                            <div class="period">/utente/mese</div>
+                            <div class="price month">&euro; 18.00</div>
+                            <div class="price year">&euro; 180.00</div>
+                            <div class="period month">/utente/mese</div>
+                            <div class="period year">/utente/anno</div>
 
                             <ul class="mt-48 ml-8">
                                 <li class="li-icon li-users mt-16">3 o più utenti</li>
