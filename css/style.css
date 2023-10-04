@@ -13,8 +13,6 @@ body { min-width: 1212px; }
 h2 { font-size: 32px; } 
 h3 { font-size: 20px; }
 
-/* radio input */
-
 /* hr */
 
 hr { border: 1px solid; }
@@ -92,7 +90,7 @@ main section .container {
 /* plans section */
 
 /* checkbox start */
-
+/* behaviour */
 section #monthly:checked ~ div .period.year, 
 section #monthly:checked ~ div .price.year {
     display: none;
@@ -101,6 +99,23 @@ section #monthly:checked ~ div .price.year {
 section #annual:checked ~ div .period.month, 
 section #annual:checked ~ div .price.month {
     display: none;
+}
+
+/* style */
+input[type="radio"] {
+    appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    margin-right: 2px;
+    transition: all 0.3s linear;
+}
+
+input[type="radio"]:checked {
+    border: 5px solid #0061FF;
 }
 
 /* checkbox end */
