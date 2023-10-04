@@ -148,28 +148,16 @@ main section .plan .content > button {
     height: auto;
 }
 
-.faq #lorem {
-    display: none;
+.faq .expandable {
+    overflow-y: hidden;
     opacity: 0;
-    transition: all 1s ease;
+    transition: height 0.5s ease, opacity 1s;
+    height: 0px;
 }
 
-/* later improvements */
-/* @keyframes faqappear {
-    50% {
-        position: static;
-    }
-
-    100% {
-        opacity: 1;
-        position: static;
-    }
-} */
-
-.faq:hover #lorem {
-    display: block;
+.faq:hover .expandable {
     opacity: 1;
-    animation: faqappear 1s ease-in-out;
+    height: 80px;
 }
 
 .faq:hover i.fa-angle-down {
@@ -177,7 +165,7 @@ main section .plan .content > button {
 }
 
 .faq i.fa-angle-down {
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 /* FOOTER */
