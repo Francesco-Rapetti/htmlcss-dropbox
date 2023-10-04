@@ -179,3 +179,16 @@ main section .plan .content > button {
 .faq i.fa-angle-down {
     transition: all 0.5s ease;
 }
+
+/* FOOTER */
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
