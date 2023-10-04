@@ -142,4 +142,40 @@ main section .plan .content > button {
     font-size: 13px;
 }
 
+/* FAQ section */
 
+.faq {
+    height: auto;
+}
+
+.faq #lorem {
+    display: none;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+/* later improvements */
+/* @keyframes faqappear {
+    50% {
+        position: static;
+    }
+
+    100% {
+        opacity: 1;
+        position: static;
+    }
+} */
+
+.faq:hover #lorem {
+    display: block;
+    opacity: 1;
+    animation: faqappear 1s ease-in-out;
+}
+
+.faq:hover i.fa-angle-down {
+    transform: rotateX(180deg) ;
+}
+
+.faq i.fa-angle-down {
+    transition: all 0.5s ease;
+}

@@ -3,6 +3,7 @@
 .a-items-center { align-items: center; }
 .j-content-between { justify-content: space-between; }
 .j-content-center {justify-content: center; }
+.j-content-start { justify-content: flex-start; }
 .fd-column { flex-direction: column; }
 .fw-wrap { flex-wrap: wrap; }
 
@@ -94,6 +95,10 @@
 .b-8-solid { border: 8px solid; }
 .b-10-solid { border: 10px solid; }
 
+.bb-1-solid { border-bottom: 1px solid; }
+.bb-2-solid { border-bottom: 2px solid; }
+
+.b-color-black { border-color: rgba(0, 0, 0, 0.5);}
 .b-color-grey { border-color: #E1E1E3;}
 .b-color-lightergreen { border-color: #D1E9CD; }
 
@@ -104,6 +109,7 @@
 .w-32 { width: 32px; }
 .w-48 { width: 48px; }
 .w-400 { width: 400px; }
+.w-950 { width: 950px; }
 
 .w-10p { width: 10%; }
 .w-20p { width: 20%; }
